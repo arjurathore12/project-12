@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(70, 163, 155);;
+}
+#container{
+  border: 2px solid black;
+  margin: 100px; 
+  font-size: 3rem;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+#digit{
+  margin: 10px;
+  padding: 10px;
+}
+button{
+  font-size: 1.5rem;
+  margin: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 0px 0px 30px aliceblue;
+}
+button:active{
+  transform: translateY(4px)
+
+}
+
+#start{
+  background-color: rgb(35, 245, 16);
+  /* color: aliceblue; */
+}
+#stop{
+  background-color: rgb(245, 16, 16);
+  /* color: aliceblue; */
+}
+#reset{
+  background-color: rgb(229, 233, 14);
+  /* color: aliceblue; */
+}
